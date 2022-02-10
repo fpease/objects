@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions</title>
+</head>
+<body>
+    <script>
+        //Question 1
+        var recipes = {
+	        name: "cookies",
+	        ingredients: ["sugar", "flour", "butter", "chocolate chips", "salt", "vanilla", "eggs", "baking powder"], 
+	        serving: 5,
+            displayProperties:function()
+            {
+                console.log(this.name);
+                    console.log(this.serving);
+                    
+                    for(var i=0; i<this.ingredients.length; i++)
+                    {
+                        console.log(this.ingredients.length);
+                        console.log(this.ingredients[i]);
+                    }
+            }
+        };
+        var result= recipes.displayProperties();
+
+        //Question 2
+        var students = {
+	        Id: 52477,
+	        Name: "Frannie",
+	        Grade: 12,
+	        School: "Millennium",
+	        Program: "coding",
+            displayProperties:function()
+            {
+                console.log(this.Id);
+                console.log(this.Name);
+                console.log(this.Grade);
+                console.log(this.School);
+                console.log(this.Program);
+                    
+            }
+        };
+        var result= students.displayProperties();
+
+        //Question 3
+        var books = {
+	        Book: ["title", "author", "already read"],
+            displayProperties:function()
+            {
+                    for(var i=0; i<this.Book.length; i++)
+                    {
+                        console.log(this.Book.length);
+                        console.log(this.Book[i]);
+                    }
+            }
+        }; 
+        var result= books.displayProperties();
+
+        //Question 4
+        var wishlist = {
+	        Gift: "shoes",
+	        Vacation: "Hawaii",
+	        Price: 100,
+            displayProperties:function()
+            {
+                console.log(this.Gift);
+                console.log(this.Vacation);
+                console.log(this.Price);
+            }
+        };
+        var result= wishlist.displayProperties();
+    </script>
+</body>
+</html>

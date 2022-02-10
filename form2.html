@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Form</title>
+    <link rel="stylesheet" href="form2.css">
+    <script type="text/javascript" src="form2.js"></script>
+</head>
+<body>
+    <div>
+    <form name="registration" onSubmit="return validation();">
+        <fieldset>
+        <legend style="align:center;">Personal Information</legend> <br>
+        <label>First Name: </label> <br>
+        <input type ="text" placeholder="First Name" name="fname"> <br>
+        <label>Last Name: </label> <br>
+        <input type ="text" placeholder="Last Name" name="lname"> <br>
+        <label>Email</label> <br>
+        <input type ="text" placeholder="Email" name="email"> <br>
+        <label>Username: </label> <br>
+        <input type ="text" placeholder="username" name="number"> <br> 
+        <input type="button" value="Submit" onClick='price()''>
+        <p id="text"></p>
+        <p id="text2"></p>
+        
+        </fieldset>
+    </form>
+    </div>
+</body>
+</html>
